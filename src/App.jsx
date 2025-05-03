@@ -1,7 +1,13 @@
-import React from "react";
+import LandingPage from "./landing";
+import Header from "./header";
 
-const App = () => {
-  return <div>App</div>;
+function App (){
+  return (
+    <>
+      <Header />
+      <LandingPage />
+    </>
+  );
 };
 
 export default App;
